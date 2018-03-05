@@ -3,11 +3,17 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { NameinputComponent } from './nameinput/nameinput.component';
+import { CharacterComponent } from './character/character.component';
+import { LoadingComponent } from './loading/loading.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NameinputComponent,
+    CharacterComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule
